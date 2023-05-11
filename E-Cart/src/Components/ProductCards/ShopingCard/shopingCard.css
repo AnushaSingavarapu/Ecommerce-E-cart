@@ -1,0 +1,66 @@
+.card{
+
+	background-color: #fff;
+	border:none;
+	border-radius: 10px;
+	width: 200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.product-cost{
+    background-color: blue;
+    color: #FFFFFF;
+    padding: 5px 11px;
+    border-radius: 7px;
+}
+
+.cost-position{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.AddtoCard{
+    background: none;
+    outline: none;
+    font-size: 14px;
+    color: blue;
+    padding: 5px;
+}
+
+.img-thumnail{
+    height: 200px;
+    width: -webkit-fill-available;
+}
+
+
+.card:hover{
+    height: 400px;
+    width: 250px;
+}
+
+.card:hover .cost-position{
+   position: absolute;
+   top: 57%;
+}
+
+.card:hover .img-thumnail{
+    height: 250px;
+}
+
+.like-position{
+    position: absolute;
+    left: 86%;
+}
+
+.like-background{
+    color: #FFFFFF;
+}
+
+.card:hover .like-position{
+    position: absolute;
+    left: 87%;
+}
+
+

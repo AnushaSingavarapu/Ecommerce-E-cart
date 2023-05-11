@@ -1,0 +1,111 @@
+.product-Header{
+    
+    background-color:aqua;
+    color:black;
+    width: 1400px;
+    font-size: 50px;
+    font-weight: 300px;
+    font-style: italic;
+
+
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    padding: 0px 0px 0px 0px;
+    gap: 64px; 
+    
+    width: 1440px;
+    height: 742px;
+    
+    /* Ray Red */
+    
+    background: #FFF1F1;
+    border-radius: 0px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 8;
+    flex-grow: 0
+}
+.card-img{
+    width: 288px;
+height: 267px;
+margin-bottom: 0px;
+
+background: url(pexels-kampus-production-8636600.jpg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.card-main{
+    width: 355px;
+    height:534px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.mobile-card{
+    justify-content: center;
+    
+}
+.product-container{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 0px 0px 0px;
+gap: 64px; 
+
+width: 1440px;
+height: 742px;
+
+/* Ray Red */
+
+background: #FFF1F1;
+border-radius: 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 8;
+flex-grow: 0
+}
+.img-card-data{
+    /* display: flex; */
+/* flex-direction: column; */
+/* align-items: flex-start; */
+padding: 24px; 
+/* gap: 15px; */
+
+width: 287px;
+height: 221px;
+
+/* Netural -3 */
+
+background: #3B395E;
+color: antiquewhite;
+/* border-radius: 0px 0px 30px 30px; */
+
+/* Inside auto layout */
+margin:0px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.card-container{
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
